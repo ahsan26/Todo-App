@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #fff;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #fff;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #fff;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: #fff;
+}
+
+.jumbotron {
+    width: 100%;
+    height: 90px;
+    background-color: #25B99A;
+    padding: 10px;
+    padding-top: 17px;
+    border-radius: 2%;
+}
+
+.jumbotron input {
+    width: 99%;
+    border-radius: 10px;
+    background-color: #51C7AE;
+    border: 0px;
+    color: #fff;
+    padding: 10px;
+    outline: none;
+    height: 50px;
+}
+
+.jumbotron button {
+    width: 50px;
+    border: 0px;
+    background-color: #fff;
+    height: 50px;
+    border-radius: 50px;
+    position: absolute;
+    top: 17px;
+    right: 0.8%;
+    outline: none;
+}
+
+.jumbotron button span {
+    color: #25B99A;
+}
+
+#uncomplete p,
+#complete p {
+    margin-bottom: 80px;
+    text-align: center;
+    color: #444;
+}
+
+#uncomplete .col-md-10,
+#complete .col-md-10 {
+    text-align: left;
+    width: 100% !important;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    color: #444;
+}
+
+#uncomplete .col-md-1,
+#complete .col-md-1 {
+    width: 100% !important;
+    text-align: right !important;
+}
+
+#uncomplete .glyphicon-trash,
+#complete .glyphicon-trash {
+    font-size: 125%;
+    transition: all 0.40s ease-in-out;
+    opacity: .4;
+    cursor: pointer;
+}
+
+#uncomplete .glyphicon-trash:hover,
+#complete .glyphicon-trash:hover {
+    color: red;
+    opacity: 1;
+}
+
+#uncomplete .glyphicon-ok-circle,
+#complete .glyphicon-ok-circle {
+    font-size: 125%;
+    transition: all 0.40s ease-in-out;
+    cursor: pointer;
+    color: #25B99A;
+}
+
+#uncomplete .glyphicon-ok-sign,
+#complete .glyphicon-ok-sign {
+    transition: all 0.40s ease-in-out;
+    font-size: 125%;
+    color: #25B99A;
+}
+
+.table.no-border tr td,
+.table.no-border tr th {
+    border-width: 0;
+}
+
+#uncomplete {
+    margin-bottom: 5%;
+}
+
+#uncomplete .col-md-10,
+#complete .col-md-10 {}

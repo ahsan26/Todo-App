@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="resources/styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+</head>
+
+<body>
+    <div class="jumbotron">
+        <form action="JavaScript:void(0)" onsubmit="addItem();">
+            <input type="text" id="item" placeholder="Enter an activity..." />
+            <button type="submit"><span class="glyphicon glyphicon-plus"></span></button>
+        </form>
+    </div>
+    <div class="container-fluid">
+        <div id="uncomplete">
+        </div>
+        <div id="complete">
+        </div>
+    </div>
+    <script src="resources/main.js"></script>
+</body>
+
+</html>
